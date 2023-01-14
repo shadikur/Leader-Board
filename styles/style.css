@@ -9,28 +9,36 @@
 header {
   background-color: #562eff;
   color: #ffffff;
-  width: 100vw;
+  width: 100%;
   height: 94px;
+  display: flex;
+  justify-content: center;
 }
 nav {
-  display: flex;
-  justify-content: space-between;
-  max-width: 870px;
+    display: flex;
+    justify-content: space-between;
+    width: 876px;
 }
 .logo {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 26px;
 }
 .logo-icon img {
-  height: 26px;
-  width: 26px;
+  height: 51px;
+  width: 40px;
+}
+.logo-text{
+    font-size: 24px;
+    margin-left: 15px;
 }
 .menu-items {
   display: flex;
   gap: 36px;
   justify-content: space-between;
   align-items: center;
+  margin-top: 26px;
 }
 .menu-items a {
   text-decoration: none;
