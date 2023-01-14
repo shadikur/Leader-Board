@@ -189,6 +189,20 @@ hr {
   .players {
     grid-template-columns: repeat(1, 1fr);
   }
-  .blogs .coures {
+  .blogs,  .courses {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  nav {
+    flex-direction: column;
+    width: 100%;
+  }
+  .menu-items {
+    flex-direction: column;
+  }
+  .players {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 20px;
   }
 }
